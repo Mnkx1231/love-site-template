@@ -12,7 +12,7 @@
 export interface Couple {
   /** Your name */
   you: string;
-  /** Their name */
+  /** Theasdasdasdasdade */
   them: string;
 }
 
