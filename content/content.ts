@@ -63,13 +63,13 @@ export const PROPOSAL_DATE = "2024-07-20";
 // ----------------------------- Hero ------------------------------------------
 
 export const couple: Couple = {
-  you: "Partner One",
-  them: "Partner Two",
+  you: "Хүслэн",
+  them: "Номин-Эрдэнэ",
 };
 
 export const hero = {
   /** Short, sweet opening line shown under the names. */
-  tagline: "the story of us",
+  tagline: "Хайр, инээд хөөр, мартагдашгүй сайхан дурсамжаар дүүрэн хамтдаа өнгөрүүлсэн нэг жил",
   /** Date shown at the top (usually the start date). */
   displayedDate: START_DATE,
 };
