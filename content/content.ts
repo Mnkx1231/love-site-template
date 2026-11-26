@@ -55,10 +55,10 @@ export interface PlaylistTrack {
 // These two dates drive the "days together" counter and two anchor milestones.
 
 /** When it all began — base for the days-together counter. */
-export const START_DATE = "2024-02-14";
+export const START_DATE = "2025-11-28";
 
 /** The day you made it official. */
-export const PROPOSAL_DATE = "2024-07-20";
+export const PROPOSAL_DATE = "2026-11-28";
 
 // ----------------------------- Hero ------------------------------------------
 
@@ -78,46 +78,6 @@ export const hero = {
 // Add the moments that matter to you, in chronological order. Anchor moments
 // (anchor: true) are highlighted in pink — use them for the big milestones,
 // like the day you met or the day you made it official.
-
-export const moments: Moment[] = [
-  {
-    date: START_DATE,
-    title: "The day we met",
-    description:
-      "Describe how it all started. Anchor moments like this one are highlighted in pink on the timeline.",
-    anchor: true,
-  },
-  {
-    date: "2024-03-22",
-    title: "Our first trip",
-    description:
-      "A regular moment. Write a short memory here — where you went, what you did, an inside joke.",
-  },
-  {
-    date: "2024-05-10",
-    title: "A favorite day",
-    description:
-      "Another everyday memory. Add as many of these as you like between the anchor milestones.",
-  },
-  {
-    date: PROPOSAL_DATE,
-    title: "The day we made it official",
-    description:
-      "Your second anchor milestone — also highlighted in pink. Tell the story of this big moment.",
-    anchor: true,
-  },
-  {
-    date: "2024-12-05",
-    title: "First holidays together",
-    description:
-      "Keep going — every moment you add here shows up as a card on the timeline.",
-  },
-];
-
-// ----------------------------- Gallery ---------------------------------------
-// Drop your images into /public/photos/ (e.g. 01.jpg) and reference them below.
-// Until you add images, the gallery shows a friendly "your photo here" frame,
-// so the layout never breaks while you build it out.
 
 export const photos: Photo[] = [
   { src: "/photos/01.jpg", alt: "Describe this photo for accessibility", caption: "Add a caption" },
